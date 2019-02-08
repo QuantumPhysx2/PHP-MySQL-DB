@@ -1,0 +1,87 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-form {
+    width: 100%;
+    text-align: center;
+}
+
+.input-form input {
+    width: 175px;
+}
+
+.section-1 {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    margin: 5px 0px;
+    width: 100%;
+    text-align: center
+}
+
+.section-2 {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.section-2 input {
+    margin: auto;
+    width: 85%;
+}
+
+.section-2 input[type="number"] {
+    font-weight: bold;
+}
+
+#totalCost[type="number"]:enabled,
+#markUp[type="number"]:enabled,
+#sellEach[type="number"]:enabled,
+#sellPriceTotal[type="number"]:enabled,
+#marginPerPiece[type="number"]:enabled,
+#marginTotal[type="number"]:enabled {
+    background: #e2e2e2;
+}
+
+button {
+    margin: 15px;
+    padding: 10px;
+}
+
+.result table {
+    width: 100%;
+    border: 1px solid #222;
+}
+
+.result th,
+.result td {
+    padding: 5px;
+    border: 1px solid #222;
+    text-align: center;
+}
+
+.result thead {
+    background: #a0d0fc;
+}
+
+.result tbody tr:nth-child(odd):hover {
+    background: #d5e7ff;
+}
+
+.result tbody tr:nth-child(even):hover {
+    background: #dbdbdb;
+}
+
+.register-form {
+    display: grid;
+    text-align: center;
+}
+
+.register-form input {
+    margin: auto;
+    width: 13%;
+}
+
+.register-form button {
+    margin: 10px auto;
+    width: 7%;
+}
